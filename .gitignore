@@ -1,0 +1,10 @@
+.idea
+vendor
+build
+reports
+composer.lock
+.phpunit.result.cache
+.phpunit.cache
+srcOld
+.php_cs.cache
+.php_cs.dist

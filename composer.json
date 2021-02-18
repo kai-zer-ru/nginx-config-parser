@@ -1,0 +1,43 @@
+{
+    "name": "kaizer666/nginx-config-parser",
+    "description": "Nginx config parser to json and json to config creator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Maksim Kovalyov",
+            "email": "kaizer@kai-zer.ru"
+        }
+    ],
+    "support": {
+        "email": "kaizer@kai-zer.ru",
+        "issues": "https://github.com/kaizer666/nginx-config-parser/issues",
+        "source": "https://github.com/kaizer666/nginx-config-parser"
+    },
+    "bugs": {
+        "url": "https://github.com/kaizer666/nginx-config-parser/issues"
+    },
+    "keywords": [
+        "nginx",
+        "parser",
+        "config file",
+        "configuration file",
+        "json",
+        "php"
+    ],
+    "autoload": {
+        "psr-4": {
+            "NginxConfigParser\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "dev-master",
+        "codacy/coverage": "dev-master",
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+
+    "minimum-stability": "dev"
+}

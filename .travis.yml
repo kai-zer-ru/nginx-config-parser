@@ -1,0 +1,8 @@
+language: php
+php:
+    - 7.4
+    - 8.0
+script: make test
+after_script:
+  - vendor/bin/test-reporter
+  - vendor/bin/codacycoverage clover
