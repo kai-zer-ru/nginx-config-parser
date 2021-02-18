@@ -26,8 +26,9 @@ class CommentHelper
         }
         return new Comment(ltrim($text, "# "));
     }
+
     /**
-     * @param Text $configString
+     * @param string $configString
      * @return Comment
      * @throws Exception
      */
