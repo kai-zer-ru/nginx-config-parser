@@ -8,9 +8,8 @@ namespace NginxConfigParser;
 
 use Exception;
 use JsonException;
-use NginxConfigParser\Helper\CommentHelper;
-use NginxConfigParser\Directives\Comment;
 use NginxConfigParser\Directives\Scope;
+use NginxConfigParser\Helper\CommentHelper;
 use PHPUnit\Framework\TestCase;
 
 /**

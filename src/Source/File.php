@@ -6,7 +6,6 @@
 
 namespace NginxConfigParser\Source;
 
-
 use Exception;
 
 /**
